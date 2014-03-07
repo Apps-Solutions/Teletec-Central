@@ -68,12 +68,8 @@
             }
         }
          
-	</script> 
-    <div class="row">
-        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 agustar">
-       	 <span class="text_zise_18">Dashboard</span>
-        </div>
-    </div> 
+	</script>  
+	<h2 style='text-align:center;'>Dashboard</h2>  
     <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 tam_dos_formulario "></div>
     </div> 

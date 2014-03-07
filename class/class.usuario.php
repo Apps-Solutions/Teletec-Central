@@ -82,7 +82,7 @@ class Usuario {
 							us_apaterno		=  '" . mysql_real_escape_string(strip_tags($this->apellidos)) . "',
 							us_pf_id_perfil =  '" . mysql_real_escape_string(strip_tags($this->id_perfil)) . "',
 							us_correo 		=  '" . mysql_real_escape_string(strip_tags($this->usuario)) . "',"
-						. (( $this->password != '') ? "us_password = '" .  $this->password . "' " : " ")	
+						. (( $this->password != '') ? "us_password = '" .  $this->password . "', " : " ")	
 						. " us_timestamp 	= " . time() . "
 						WHERE id_usuario 	= " . $this->id_usuario . "; ";
 			}
@@ -100,7 +100,7 @@ class Usuario {
 			}
 			
 			if (($result = $this->bd->Query("SV_USUARIO", $sql))!= IBD_SUCCESS) {
-				$this->error[] = "Ocurrió un error al guardar la información. ";
+				$this->error[] = "Ocurrió un error al guardar la información. " ;
 				return FALSE;
 			}
 			else{

@@ -588,4 +588,4 @@ background-color: #999;
 .centro { text-align: center; }
 .izquierda { text-align: left;} 
 
-.zebra { background-color: #FDB11C; } 
+.zebra { background-color: #FDB11C !important; } 

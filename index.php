@@ -17,9 +17,9 @@ $MyIndex->Logic($command);
 	<!-- CSS -->
 	    <link href="css/jquery-ui-1.8.22.custom.css" rel="stylesheet" type="text/css" />
 	    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
-	    <link href="css/css_teletec.css" rel="stylesheet" type="text/css" />
 	    <link href="css/ui.jqgrid.css" rel="stylesheet" type="text/css" />  
      	<link href="css/bootstrap-datetimepicker.min.css" rel="stylesheet" type="text/css" />
+	    <link href="css/css_teletec.css" rel="stylesheet" type="text/css" />
 	<!-- /CSS -->
 	<!-- JS -->
 		<script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>

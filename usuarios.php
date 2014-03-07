@@ -21,7 +21,7 @@ switch ( $accion ){
 			$respuesta['success'] = TRUE;
 			$respuesta['usuario'] = $usuario->get_array();
 		} else {
-			$respuesta['msg'] = $usuario->error[0];
+			$respuesta['err'] = $usuario->error[0];
 		}
 		echo json_encode( $respuesta );
 		break;
@@ -45,7 +45,7 @@ switch ( $accion ){
 				if ( $resp === TRUE && count($usuario->error) == 0){
 					header('Location: index.php?command=usuarios&msg=' . urlencode( 'El registro se guardó correctamente.'));
 				} else {
-					header('Location: index.php?command=usuarios&msg=' . urlencode( $usuario->error[0] )); 
+					header('Location: index.php?command=usuarios&err=' . urlencode( $usuario->error[0] )); 
 				} 
 			}
 		} 
