@@ -1,4 +1,4 @@
-@charset "UTF-8";
+x@charset "UTF-8";
 /* CSS Document */
 
 /*# sourceMappingURL=bootstrap.css.map */
@@ -7,7 +7,6 @@
 .color1{
 	background-color:#FDCE72;
 	}
-	
 .color2{
 	background-color:#FDD5D3;
 	}
@@ -186,6 +185,23 @@ border-radius: 250px 250px 250px 250px;
 height:90%;
 
 }
+
+.oculto {
+    display: none;
+	top:0px;
+
+}
+
+.mostrar
+{
+	display:inline;
+	
+}
+
+.ocultar
+{
+	display:none
+	}
 	
 .auto_flotar{
 	height:80px;
@@ -207,6 +223,11 @@ height:90%;
 .margin_bottom_30
 {
 	margin-bottom:30px;
+}
+
+.margin_top_15
+{
+	margin-top:15px;
 }
 .text_blanco
 {
@@ -457,7 +478,7 @@ height:90%;
 /**editando carcteristicas por defecto  **/
 
 body {
-	background-color:#D6D6D6;
+	background-color:#B0B0B0;
 	
 	-webkit-background-size: cover;
     -moz-background-size: cover;
@@ -472,6 +493,10 @@ body {
   left: 0;
   width: 100%;
 }
+.modal {
+	top:-130px;
+}
+
 a{  color:#999999; }
 
 a:active,a:hover{

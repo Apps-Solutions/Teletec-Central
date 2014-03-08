@@ -133,7 +133,8 @@
 									</div> 
 									<div class="row "> 
 										<div class="col-lg-3 derecha">Usuario<span class="obligatorio"> * </span></div> 
-										<div class="col-lg-7"><input type="email" id='inp_usuario' name='inp_usuario' required="required" class="form-control text_nue_user" placeholder="Usuario" value=''></div> 
+										<div class="col-lg-7"><input type="email" id='inp_usuario' name='inp_usuario' required class="form-control text_nue_user" placeholder="Usuario" value=''>
+                                        </div> 
 										<div class="col-lg-3"></div> 
 									</div> 
 									<div class="row">
@@ -184,9 +185,9 @@
 				</div>
 				<div class="modal-footer  text_blanco">
 					<div class="row">
-						<div class="col-lg-4 agustar"><input type="button" class="btn btn-default fondo_gris_degra_total " value=' Cancelar ' data-dismiss="modal" />  </div>
-						<div class="col-lg-4 agustar"><input type="reset"  class="btn btn-default fondo_gris_degra_total " value=' Reiniciar ' /> </div>
-						<div class="col-lg-4 agustar"><input type="submit" class="btn btn-default fondo_gris_degra_total " value=' Guardar ' /> </div>
+						<div class=" col-xs-4 col-sm-4 col-md-4 col-lg-4 agustar"><input type="button" class="btn btn-default fondo_gris_degra_total " value=' Cancelar ' data-dismiss="modal" />  </div>
+						<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 agustar"><input type="reset"  class="btn btn-default fondo_gris_degra_total " value=' Reiniciar ' /> </div>
+						<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 agustar"><input type="submit" class="btn btn-default fondo_gris_degra_total " value=' Guardar ' /> </div>
 					</div>  
 				</div> 
 				</form>

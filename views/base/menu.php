@@ -10,9 +10,8 @@
 								<li><span class="formato_text_uno_gris_form margen_derecho">/</span> </li>
 								<li>
 									<span class="formato_text_uno_gris_form margen_derecho">
-										<a href="" data-toggle="modal" data-target=".bs-salir-modal-lg">Salir</a>
+										<a href="" data-toggle="modal" data-target=".bs-salir-modal-sm">Salir</a>
 									</span>
-									 
 								</li>   
 							</ul>
 						</div>
