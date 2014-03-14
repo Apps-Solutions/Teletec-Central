@@ -49,19 +49,19 @@ $MyIndex->Logic($command);
            
            
 		<div id='cont_msg' style="z-index: 99999999; position:fixed; width:95%;"> 
-			<div  id='msg_div'  class="ui-widget  <? echo  $msg_class; ?>" 	>
-				<div class="ui-state-highlight ui-corner-all" style="padding: 1em .7em;"  >
-					<p><span class="ui-icon ui-icon-info" style=" float:left; margin-right: .3em; "> </span>
-					 <span id='msg_span' ><? echo  $mensaje; ?> </span>
-					 <span style="float:right;"><a href="javascript:void(0);" onclick="javascript:$('#msg_div').hide();"> X </a> </span> 
+			<div  id='msg_div'  class="  <? echo  $msg_class; ?>" 	>
+				<div class="alert alert-info alert-dismissable"  >
+                	<button type="button" class="close" data-dismiss="alert">&times;</button>
+					<p><span  style=" float:left; margin-right: .3em; "> </span>
+					 <span id='msg_span' ><strong>Msg:</strong><? echo  $mensaje; ?> </span>
 					 </p>
 				</div> 
 			</div>
-			<div  id='err_div' class="ui-widget <? echo  $err_class; ?> " >
-				<div class="ui-state-error ui-corner-all " style="padding: 1em .7em;">
-					<span class="ui-icon ui-icon-alert" style=" float:left;  margin-right: .3em; "> </span>
-					 <span id='err_span' ><? echo  $error; ?> </span></p> 
-					 <span style="float:right;"><a href="javascript:void(0);" onclick="javascript:$('#err_div').hide();"> X </a> </span> 
+			<div  id='err_div' class="<? echo  $err_class; ?> " >
+				<div class="alert alert-danger alert-dismissable " >
+                <button type="button" class="close" data-dismiss="alert">&times;</button>
+					<span  style=" float:left;  margin-right: .3em; "> </span>
+					<span id='err_span' ><strong>Error:</strong><? echo  $error; ?> </span></p>
 				</div> 
 			</div>  
 		</div>
